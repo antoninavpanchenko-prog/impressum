@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impressum - Antonina Panchenko</title>
+    <title>Impressum & Datenschutz - Antonina Panchenko</title>
     <style>
         * {
             margin: 0;
@@ -26,6 +26,20 @@
             padding: 40px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .section-divider {
+            border: none;
+            border-top: 3px solid #3498db;
+            margin: 50px 0;
         }
         
         h1 {
@@ -110,48 +124,73 @@
 </head>
 <body>
     <div class="container">
-        <h1>Impressum</h1>
-        <p class="subtitle">Angaben gemäß § 5 DDG</p>
-        
-        <div class="info-block">
-            <p><strong>Antonina Panchenko</strong></p>
-            <p>Bismarckstr. 9</p>
-            <p>33330 Gütersloh</p>
-            <p>Deutschland</p>
+        <!-- БЛОК 1: IMPRESSUM -->
+        <div class="section">
+            <h1>Impressum</h1>
+            <p class="subtitle">Angaben gemäß § 5 DDG</p>
+            
+            <div class="info-block">
+                <p><strong>Antonina Panchenko</strong></p>
+                <p>Bismarckstr. 9</p>
+                <p>33330 Gütersloh</p>
+                <p>Deutschland</p>
+            </div>
+            
+            <hr>
+            
+            <h2>Kontakt</h2>
+            <div class="contact-item">
+                <p>Telefon: <a href="tel:+4901603095508">0160 3095508</a></p>
+            </div>
+            <div class="contact-item">
+                <p>E-Mail: <a href="mailto:antonina.v.panchenko@gmail.com">antonina.v.panchenko@gmail.com</a></p>
+            </div>
+            
+            <hr>
+            
+            <h2>Unternehmensform</h2>
+            <p>Einzelunternehmen</p>
+            
+            <h2>Umsatzsteuer-Status</h2>
+            <p>Kleinunternehmerin gemäß § 19 UStG (nicht zum Ausweis der Umsatzsteuer verpflichtet)</p>
+            
+            <hr>
+            
+            <h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
+            <p>Ich bin nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
         </div>
-        
-        <hr>
-        
-        <h2>Kontakt</h2>
-        <div class="contact-item">
-            <p>Telefon: <a href="tel:+4901603095508">0160 3095508</a></p>
+
+        <!-- РАЗДЕЛИТЕЛЬ -->
+        <hr class="section-divider">
+
+        <!-- БЛОК 2: DATENSCHUTZ -->
+        <div class="section">
+            <h1>Datenschutzerklärung</h1>
+            <p class="subtitle">Datenschutzhinweis gemäß Art. 13 DSGVO</p>
+            
+            <h2>Verantwortliche</h2>
+            <p>Diese Website wird von mir, <strong>Antonina Panchenko</strong>, als Einzelunternehmerin betrieben.</p>
+            <div class="info-block">
+                <p>Bismarckstr. 9</p>
+                <p>33330 Gütersloh</p>
+                <p>Deutschland</p>
+                <p>E-Mail: <a href="mailto:antonina.v.panchenko@gmail.com">antonina.v.panchenko@gmail.com</a></p>
+            </div>
+
+            <h2>Verarbeitung personenbezogener Daten</h2>
+            <p>Wenn Sie mich per E-Mail, Telefon oder über andere Kanäle kontaktieren, verarbeite ich die von Ihnen übermittelten personenbezogenen Daten ausschließlich zur Bearbeitung Ihrer Anfrage gemäß Art. 6 Abs. 1 lit. b DSGVO.</p>
+
+            <h2>Externe Dienste</h2>
+            <p>Für ggf. eingebundene externe Dienste (z. B. Links zu LinkedIn) gelten die jeweiligen Datenschutzerklärungen der dortigen Anbieter.</p>
+
+            <h2>Ihre Rechte</h2>
+            <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch bezüglich Ihrer personenbezogenen Daten.</p>
+
+            <h2>Kontakt zum Datenschutz</h2>
+            <p>Bei Fragen zum Datenschutz können Sie mich jederzeit unter folgender E-Mail-Adresse erreichen:<br>
+            <a href="mailto:antonina.v.panchenko@gmail.com">antonina.v.panchenko@gmail.com</a></p>
         </div>
-        <div class="contact-item">
-            <p>E-Mail: <a href="mailto:antonina.v.panchenko@gmail.com">antonina.v.panchenko@gmail.com</a></p>
-        </div>
-        
-        <hr>
-        
-        <h2>Unternehmensform</h2>
-        <p>Einzelunternehmen</p>
-        
-        <h2>Umsatzsteuer-Status</h2>
-        <p>Kleinunternehmerin gemäß § 19 UStG (nicht zum Ausweis der Umsatzsteuer verpflichtet)</p>
-        
-        <hr>
-        
-        <h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
-        <p>Ich bin nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
-        
-        <hr>
-        
-        <h2>Datenschutzhinweis gemäß Art. 13 DSGVO</h2>
-        <p>Diese Website wird von mir, <strong>Antonina Panchenko</strong>, als Einzelunternehmerin betrieben.</p>
-        <p style="margin-top: 15px;">Wenn Sie mich per E-Mail, Telefon oder über andere Kanäle kontaktieren, verarbeite ich die von Ihnen übermittelten personenbezogenen Daten ausschließlich zur Bearbeitung Ihrer Anfrage gemäß Art. 6 Abs. 1 lit. b DSGVO.</p>
-        <p style="margin-top: 15px;">Für ggf. eingebundene externe Dienste (z. B. Links zu LinkedIn) gelten die jeweiligen Datenschutzerklärungen der dortigen Anbieter.</p>
-        <p style="margin-top: 15px;">Bei Fragen zum Datenschutz können Sie mich jederzeit unter folgender E-Mail-Adresse erreichen:<br>
-        <a href="mailto:antonina.v.panchenko@gmail.com">antonina.v.panchenko@gmail.com</a></p>
-        
+
         <div class="footer">
             © 2025 Antonina Panchenko
         </div>
